@@ -1,0 +1,14 @@
+/home/danilemae/Рабочий стол/AppForClients/bin/Debug/net10.0/AppForClients
+/home/danilemae/Рабочий стол/AppForClients/bin/Debug/net10.0/AppForClients.deps.json
+/home/danilemae/Рабочий стол/AppForClients/bin/Debug/net10.0/AppForClients.runtimeconfig.json
+/home/danilemae/Рабочий стол/AppForClients/bin/Debug/net10.0/AppForClients.dll
+/home/danilemae/Рабочий стол/AppForClients/bin/Debug/net10.0/AppForClients.pdb
+/home/danilemae/Рабочий стол/AppForClients/obj/Debug/net10.0/AppForClients.GeneratedMSBuildEditorConfig.editorconfig
+/home/danilemae/Рабочий стол/AppForClients/obj/Debug/net10.0/AppForClients.AssemblyInfoInputs.cache
+/home/danilemae/Рабочий стол/AppForClients/obj/Debug/net10.0/AppForClients.AssemblyInfo.cs
+/home/danilemae/Рабочий стол/AppForClients/obj/Debug/net10.0/AppForClients.csproj.CoreCompileInputs.cache
+/home/danilemae/Рабочий стол/AppForClients/obj/Debug/net10.0/AppForClients.dll
+/home/danilemae/Рабочий стол/AppForClients/obj/Debug/net10.0/refint/AppForClients.dll
+/home/danilemae/Рабочий стол/AppForClients/obj/Debug/net10.0/AppForClients.pdb
+/home/danilemae/Рабочий стол/AppForClients/obj/Debug/net10.0/AppForClients.genruntimeconfig.cache
+/home/danilemae/Рабочий стол/AppForClients/obj/Debug/net10.0/ref/AppForClients.dll
