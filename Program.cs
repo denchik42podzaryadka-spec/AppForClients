@@ -1,10 +1,15 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 namespace ClientManager
 {
     class Program
     {
         public static void Main()
         {
+            using (var db = new ApplicationContext())
+            {
+                db.Database.Migrate();
+            }
             ClientList manager = new ClientList();
             bool isRunning = true;
 
