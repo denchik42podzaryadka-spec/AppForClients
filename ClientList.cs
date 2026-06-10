@@ -1,7 +1,3 @@
-using System;
-using System.Linq;
-using System.Collections.Generic;
-using Microsoft.EntityFrameworkCore;
 namespace ClientManager
 {
     class ClientList : IClientList
@@ -22,7 +18,7 @@ namespace ClientManager
             {
                 var dbClients = db.Clients.ToList();
 
-                if (dbClients.Count == 0)
+                if (dbClients.Any())
                 {
                     Console.WriteLine("Клиентов нет");
                     return;

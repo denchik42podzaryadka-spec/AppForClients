@@ -1,5 +1,3 @@
-using System;
-
 namespace ClientManager
 {
     public class Client
