@@ -19,7 +19,7 @@ namespace ClientManager
         {
             var dbClients = _db.Clients.ToList();
 
-            if (dbClients.Any())
+            if (!dbClients.Any())
             {
                 Console.WriteLine("Клиентов нет");
                 return;
