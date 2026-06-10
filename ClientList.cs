@@ -8,7 +8,7 @@ namespace ClientManager
         {
             _db = db;
         }
-        public void AddCLient(string name, string number, DateTime dateAndClock)
+        public void AddClient(string name, string number, DateTime dateAndClock)
         {
             Client peoplesclients = new Client(name, number, dateAndClock);
             // Сохранение

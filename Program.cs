@@ -41,7 +41,7 @@ namespace ClientManager
                         if (DateTime.TryParse(dateInput, out DateTime result))
                         {
                             DateTime utcResult = DateTime.SpecifyKind(result, DateTimeKind.Utc);
-                            manager.AddCLient(name, number, utcResult);
+                            manager.AddClient(name, number, utcResult);
 
                         }
                         else
