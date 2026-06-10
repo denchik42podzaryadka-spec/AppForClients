@@ -5,11 +5,9 @@ namespace ClientManager
     {
         public static void Main()
         {
-            using (var db = new ApplicationContext())
-            {
+            using var db = new ApplicationContext();
                 db.Database.Migrate();
-            }
-            ClientList manager = new ClientList();
+            IClientList manager = new ClientList(db);
             bool isRunning = true;
 
             while (isRunning)
